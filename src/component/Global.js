@@ -28,7 +28,7 @@ function GetRequestHooks(props) {
             
            
             <div className="icon-bar">
-                           <a href="#" className="facebook notifications" id="notificationLink"  onClick={() => setShowText(!showText)}>
+                           <a href="" className="facebook notifications" id="notificationLink"  onClick={() => setShowText(!showText)}>
                         
                                <i className="fa fa-bell" aria-hidden="true">
                                </i><span id="notification_count">4</span>
