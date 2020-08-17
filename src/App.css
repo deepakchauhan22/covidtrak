@@ -756,6 +756,7 @@ code{
   }
   
   .icon-bar a {
+    box-sizing: content-box;
     display: block;
     text-align: center;
     padding: 20px 20px 20px 10px;
