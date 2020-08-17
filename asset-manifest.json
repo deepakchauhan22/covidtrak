@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/covidtrak/static/css/main.3338c3e1.chunk.css",
-    "main.js": "/covidtrak/static/js/main.4d2a6518.chunk.js",
-    "main.js.map": "/covidtrak/static/js/main.4d2a6518.chunk.js.map",
+    "main.css": "/covidtrak/static/css/main.477a9f6e.chunk.css",
+    "main.js": "/covidtrak/static/js/main.795460ee.chunk.js",
+    "main.js.map": "/covidtrak/static/js/main.795460ee.chunk.js.map",
     "runtime-main.js": "/covidtrak/static/js/runtime-main.468482ec.js",
     "runtime-main.js.map": "/covidtrak/static/js/runtime-main.468482ec.js.map",
     "static/css/2.40e20e49.chunk.css": "/covidtrak/static/css/2.40e20e49.chunk.css",
-    "static/js/2.d64b23e2.chunk.js": "/covidtrak/static/js/2.d64b23e2.chunk.js",
-    "static/js/2.d64b23e2.chunk.js.map": "/covidtrak/static/js/2.d64b23e2.chunk.js.map",
+    "static/js/2.15b643b8.chunk.js": "/covidtrak/static/js/2.15b643b8.chunk.js",
+    "static/js/2.15b643b8.chunk.js.map": "/covidtrak/static/js/2.15b643b8.chunk.js.map",
     "index.html": "/covidtrak/index.html",
-    "precache-manifest.918ae5be04e9cffc6e15838c32849638.js": "/covidtrak/precache-manifest.918ae5be04e9cffc6e15838c32849638.js",
+    "precache-manifest.59f0b8ac07b0c24453272920ef8d2701.js": "/covidtrak/precache-manifest.59f0b8ac07b0c24453272920ef8d2701.js",
     "service-worker.js": "/covidtrak/service-worker.js",
     "static/css/2.40e20e49.chunk.css.map": "/covidtrak/static/css/2.40e20e49.chunk.css.map",
-    "static/css/main.3338c3e1.chunk.css.map": "/covidtrak/static/css/main.3338c3e1.chunk.css.map",
-    "static/js/2.d64b23e2.chunk.js.LICENSE.txt": "/covidtrak/static/js/2.d64b23e2.chunk.js.LICENSE.txt",
+    "static/css/main.477a9f6e.chunk.css.map": "/covidtrak/static/css/main.477a9f6e.chunk.css.map",
+    "static/js/2.15b643b8.chunk.js.LICENSE.txt": "/covidtrak/static/js/2.15b643b8.chunk.js.LICENSE.txt",
     "static/media/cough.svg": "/covidtrak/static/media/cough.42949f44.svg",
     "static/media/covid.svg": "/covidtrak/static/media/covid.c7001cb2.svg",
     "static/media/covidbll.svg": "/covidtrak/static/media/covidbll.b32be37b.svg",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.468482ec.js",
     "static/css/2.40e20e49.chunk.css",
-    "static/js/2.d64b23e2.chunk.js",
-    "static/css/main.3338c3e1.chunk.css",
-    "static/js/main.4d2a6518.chunk.js"
+    "static/js/2.15b643b8.chunk.js",
+    "static/css/main.477a9f6e.chunk.css",
+    "static/js/main.795460ee.chunk.js"
   ]
 }

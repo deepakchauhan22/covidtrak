@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a310fbbefc0756bd49c40f188287ea73",
+    "revision": "818d411e1a5aa6cbabade98d5628490b",
     "url": "/covidtrak/index.html"
   },
   {
-    "revision": "39105f93bfaf91a6c242",
+    "revision": "7905f1b14fc7d045cb50",
     "url": "/covidtrak/static/css/2.40e20e49.chunk.css"
   },
   {
-    "revision": "061988a3e3741157a414",
-    "url": "/covidtrak/static/css/main.3338c3e1.chunk.css"
+    "revision": "a6730399a797148c114b",
+    "url": "/covidtrak/static/css/main.477a9f6e.chunk.css"
   },
   {
-    "revision": "39105f93bfaf91a6c242",
-    "url": "/covidtrak/static/js/2.d64b23e2.chunk.js"
+    "revision": "7905f1b14fc7d045cb50",
+    "url": "/covidtrak/static/js/2.15b643b8.chunk.js"
   },
   {
     "revision": "1dc8c40d57b41eea617d6ecda1b3a19f",
-    "url": "/covidtrak/static/js/2.d64b23e2.chunk.js.LICENSE.txt"
+    "url": "/covidtrak/static/js/2.15b643b8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "061988a3e3741157a414",
-    "url": "/covidtrak/static/js/main.4d2a6518.chunk.js"
+    "revision": "a6730399a797148c114b",
+    "url": "/covidtrak/static/js/main.795460ee.chunk.js"
   },
   {
     "revision": "1f3583ec45dd537c8641",
