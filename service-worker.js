@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/covidtrak/precache-manifest.59f0b8ac07b0c24453272920ef8d2701.js"
+  "/covidtrak/precache-manifest.e99cab1e67361fec3b66e31cdbbb82a0.js"
 );
 
 self.addEventListener('message', (event) => {

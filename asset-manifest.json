@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/covidtrak/static/css/main.477a9f6e.chunk.css",
-    "main.js": "/covidtrak/static/js/main.795460ee.chunk.js",
-    "main.js.map": "/covidtrak/static/js/main.795460ee.chunk.js.map",
+    "main.js": "/covidtrak/static/js/main.5c4796da.chunk.js",
+    "main.js.map": "/covidtrak/static/js/main.5c4796da.chunk.js.map",
     "runtime-main.js": "/covidtrak/static/js/runtime-main.468482ec.js",
     "runtime-main.js.map": "/covidtrak/static/js/runtime-main.468482ec.js.map",
     "static/css/2.40e20e49.chunk.css": "/covidtrak/static/css/2.40e20e49.chunk.css",
     "static/js/2.15b643b8.chunk.js": "/covidtrak/static/js/2.15b643b8.chunk.js",
     "static/js/2.15b643b8.chunk.js.map": "/covidtrak/static/js/2.15b643b8.chunk.js.map",
     "index.html": "/covidtrak/index.html",
-    "precache-manifest.59f0b8ac07b0c24453272920ef8d2701.js": "/covidtrak/precache-manifest.59f0b8ac07b0c24453272920ef8d2701.js",
+    "precache-manifest.e99cab1e67361fec3b66e31cdbbb82a0.js": "/covidtrak/precache-manifest.e99cab1e67361fec3b66e31cdbbb82a0.js",
     "service-worker.js": "/covidtrak/service-worker.js",
     "static/css/2.40e20e49.chunk.css.map": "/covidtrak/static/css/2.40e20e49.chunk.css.map",
     "static/css/main.477a9f6e.chunk.css.map": "/covidtrak/static/css/main.477a9f6e.chunk.css.map",
@@ -36,6 +36,6 @@
     "static/css/2.40e20e49.chunk.css",
     "static/js/2.15b643b8.chunk.js",
     "static/css/main.477a9f6e.chunk.css",
-    "static/js/main.795460ee.chunk.js"
+    "static/js/main.5c4796da.chunk.js"
   ]
 }
