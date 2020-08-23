@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Hero from '../stay-safe.png';
-
+import SideMenu from './SideMenu';
+import {NavLink } from 'react-router-dom';
 
 class Facts extends Component{
     constructor(props){
@@ -9,37 +10,16 @@ class Facts extends Component{
 
     render(){
         return <>
-  
+        
   <div class="flex-container">
-{/*   
-  <div className="icon-bar">
-                        <a href="#" className="facebook notifications" id="notificationLink"><i className="fa fa-bell" aria-hidden="true"></i><span id="notification_count">4</span>
-                        <div className="updatesnot" id="notificationContainer"> 
-                               
-                                    <div className="update-contentnot">
-                                    <div id="notificationTitle">News Updates</div>
-                                       
-                                    <div id="notificationsBody" class="notifications">
-                                    <ul>
-                                        <li><a href="#"><i className="fa fa-globe"  aria-hidden="true"></i>Global confirmed cases: 18,295,434; total deaths: 694,233; total recovered: 10,926,704</a></li>
-                                        <li><a href="#"><i className="fa fa-user-md" aria-hidden="true"></i>Total Number of Tests Done in India: </a></li>
-                                        <li><a href="#"><i className="fa fa-asterisk" aria-hidden="true"></i>2284 new cases and 1471 recoveries in Your City</a></li>
-                                        <li><a href="#"><i className="fa fa-info-circle" aria-hidden="true"></i>Guidelines on Preventive Measures to Contain Spread of COVID-19</a></li>
-                                        </ul>
-                                    </div>
-                                    </div>
-                                </div> 
-                        
-                        </a> 
-                        <a href="#" className="twitter"><i className="fa fa-language" aria-hidden="true"></i></a> 
-                        <a href="#" className="google"> <label className="switch">
-                            <input type="checkbox"/>
-                            <span className="slider round"></span>
-                            </label>
-                        </a>                     
-                    </div> */}
+        
+  <SideMenu />
         <div class="markdown"> 
-
+                    <div className="breadcrumbs">                
+                                        <NavLink  to= "/home">
+                                        <span className="fa fa-home i"> </span> 
+                                        </NavLink>      
+                     </div>
                     <div class="item">
                         
                             {/* <h3>Spread Facts, Not fear</h3> */}

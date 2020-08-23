@@ -26,19 +26,17 @@ class Header extends Component{
                     </a> */}
                  
                    <NavLink className="active" to= "/home">
-                    <span ></span> Colist.
+                    <span ></span> Covidtrak.
                    </NavLink>
-                   <NavLink className="nav-link" to= "/prevention">
-                        <span className="fa fa-medkit i"></span> Prevention
+                        <NavLink  to= "/about">
+                        <span className="fa fa-asterisk i"></span> About
                         </NavLink>
                         <NavLink className="nav-link" to= "/symptoms">
                         <span className="fa fa-heartbeat i"></span> Symptoms 
                         </NavLink>
-                        <NavLink  to= "/about">
-                        <span className="fa fa-asterisk i"></span> About
+                        <NavLink className="nav-link" to= "/prevention">
+                        <span className="fa fa-medkit i"></span> Prevention
                         </NavLink>
-              
-                   
                   
          </div>
         

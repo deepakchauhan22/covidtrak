@@ -20,6 +20,7 @@ function GetRequestHooks(props) {
     
     return (
         console.log(cityName),
+        console.log(userStatecode),
 
 
     //   console.log(cityName),
@@ -28,7 +29,7 @@ function GetRequestHooks(props) {
             
            
             <div className="icon-bar">
-                           <a href="" className="facebook notifications" id="notificationLink"  onClick={() => setShowText(!showText)}>
+                           <a className="facebook notifications" id="notificationLink"  onClick={() => setShowText(!showText)}>
                         
                                <i className="fa fa-bell" aria-hidden="true">
                                </i><span id="notification_count">4</span>
@@ -36,8 +37,8 @@ function GetRequestHooks(props) {
                                     <div className="updatesnot" id="notificationContainer"> 
                             
                                                     <div className="update-contentnot">
-                                                        <div id="notificationTitle">News Updates</div>
-                                                        
+                                                        <div id="notificationTitle">News Updates    <span> <i class="fa fa-times" aria-hidden="true"></i></span></div>
+                                                     
                                                         <div id="notificationsBody" class="notifications">
                                                         <ul>
                                                         {

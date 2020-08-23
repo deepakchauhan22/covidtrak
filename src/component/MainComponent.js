@@ -20,7 +20,7 @@ class Main extends React.Component {
             <div className="wrapper">
                 
                 <Header />
-                <BrowserRouter >
+        
                 <Switch> 
 
                 <Route path="/home" component={GetRequest} />
@@ -30,7 +30,7 @@ class Main extends React.Component {
 
                    <Redirect to = "/home" />
                 </Switch>    
-                </BrowserRouter>     
+                
                 {/* <GetRequestAsyncAwait />  
                 <Footer />       */}
                 {/* <GetRequestAsyncAwait />
