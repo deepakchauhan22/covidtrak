@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Hero from '../stay-safe.png';
+import Hero from '../assets/img/stay-safe.png';
 import SideMenu from './SideMenu';
 import {NavLink } from 'react-router-dom';
 

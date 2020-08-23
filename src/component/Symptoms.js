@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
-import Hero from '../hero.png';
-import tired from '../tired.png';
-import cough from '../cough.svg';
-import fever from '../fever.svg';
-import protection from '../protection.png';
+import Hero from '../assets/img/hero.png';
+import tired from '../assets/img/tired.png';
+import cough from '../assets/img/cough.svg';
+import fever from '../assets/img/fever.svg';
+import protection from '../assets/img/protection.png';
 import { GetRequest } from './GetRequest';
-import{Abhinay}from './Abhinay'
 import SideMenu from './SideMenu';
 
 import {NavLink } from 'react-router-dom';
