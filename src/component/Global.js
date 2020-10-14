@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 
 function GetRequestHooks(props) {
     const [Globe, setGlobe] = useState([]);
-    const [City, setCity] = useState([]);
     const [showText, setShowText] = useState(false);
   
     useEffect(() => {
@@ -64,8 +63,7 @@ function GetRequestHooks(props) {
                                                             } 
                                                             <li><a href="#"><i className="fa fa-user-md" aria-hidden="true"></i>Total Number of Tests Done in India: {props.tested} </a></li>
                                                             <li><a href="#"><i className="fa fa-user-md" aria-hidden="true"></i>Total Number of cases Today in India: {props.daily} </a></li>
-                                                            <li><a href="#"><i className="fa fa-info-circle" aria-hidden="true"></i>Guidelines on Preventive Measures to Contain Spread of COVID-19</a></li>
-                                                            </ul>
+                                                             </ul>
                                                         </div>
                                                     </div>
                                         </div> 
@@ -81,56 +79,6 @@ function GetRequestHooks(props) {
                             </a>                     
                 </div>
             
-
-            {/* <div>                    
-                      <span>TotalConfirmed: {Globe}</span>
-            </div> */}
-                                                 {/* .filter(
-                                                (stateCode) =>
-                                                stateCode !== 'TT' &&
-                                                states[stateCode]['total'] 
-                                                //  && states[stateCode][districts]
-                                               )
-                                               
-                                               
-                                                 .map((stateCode,i) => {
-                                                   
-                                                    var confirmed = states[stateCode]['total']['confirmed'];
-                                                    var recovered = states[stateCode]['total']['recovered'];
-                                                    var migrated = states[stateCode]['total']['migrated'];
-                                                    var deceased = states[stateCode]['total']['deceased'];
-                                                    var tested = states[stateCode]['total']['tested'];
-                                                   
-                                               */}
- 
-         
-
-                   
-               
-
-
-
-           {/* {
-        Object.keys(Globe).filter(
-            (stateCode) =>
-            stateCode == 'Global'
-            //  && states[stateCode][districts]
-           ).map((stateCode, i) => {
-
-            var confirmed = Globe['Global']['TotalConfirmed'];
-
-               return(
-                <p>
-                <span>dee: {confirmed}</span>
-               
-              </p>
-               )
-        
-           })
-      }  */}
-            
-          
-           
          
         </div>
     );

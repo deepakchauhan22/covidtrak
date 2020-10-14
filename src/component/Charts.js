@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
+
 import { Doughnut } from 'react-chartjs-2'
 
 
@@ -31,7 +31,7 @@ async componentDidMount() {
  
 
   render() {
-    const { totalConfirmed,totalRecovered,totalDeath ,population} = this.state;
+    const { totalConfirmed,totalRecovered,totalDeath } = this.state;
 
     var fatrate = 0;
     var recovrate = 0;

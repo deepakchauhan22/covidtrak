@@ -61,23 +61,7 @@ class CityDetails extends React.Component {
                       stateCode == userStatecode
                      ).map((stateCode,i) => {
                     
-                    //   var confirmed = CityDetailssss[stateCode]['districts'];
-                                // {
-                                // Object.keys(CityDetailssss[stateCode]['districts']).filter(
-                                //     (DistName) =>
-                                //     DistName == cityName
-                                // ).map((DistName,i) => {  
-                                //     var cityconfirmed =  CityDetailssss[stateCode]['districts'][cityName]['total']['confirmed'];
-                                //     console.log(cityconfirmed)
-                                //     return(
-                                //         <div>   
-                                //         <span>TotalConfirmed: {cityconfirmed}</span>
-                                      
-                                //         </div>
-                                //     )
-
-                                //     })
-                                // }
+                
                             return(
                                 
                                 
@@ -95,7 +79,7 @@ class CityDetails extends React.Component {
                                         
                                             
                                             return(
-                                                <div className="cityContentBox">   
+                                                <div className="cityContentBox" >   
                                             
                                                <span className= "b">Confirmed <br/><span className="react1"> {cityConfirmed} </span> </span> 
                                                <span className= "c">Active <br/><span className="react1">{cityActive}</span> </span> 

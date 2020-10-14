@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
-import Hero from '../assets/img/hero.png';
+
 import handwash from '../assets/img/wash-hands.svg';
 import socialdistancing from '../assets/img/socialdist.svg';
 import mask from '../assets/img/face-mask.svg';
 import protection from '../assets/img/protection.png';
-import covidred from '../assets/img/covid.svg';
-import {GetRequestHooks} from './Global';
+
 import SideMenu from './SideMenu';
 import {NavLink } from 'react-router-dom';
 
@@ -19,6 +18,7 @@ class Prevention extends Component{
   
   <div class="flex-container">
          <SideMenu />
+         
         <div class="markdown"> 
                      <div className="breadcrumbs">                
                                         <NavLink  to= "/home">
@@ -31,11 +31,11 @@ class Prevention extends Component{
                    
                     <div class="Help-content">
                             <ul>
-                            <li><a href="#"><i class="fa fa-check-circle" aria-hidden="true"></i>Wear Mask</a></li>
-                            <li><a href="#"><i class="fa fa-check-circle" aria-hidden="true"></i>Stay Home</a></li>
-                            <li><a href="#"><i class="fa fa-check-circle" aria-hidden="true"></i>Wash Hands Often</a></li>
-                            <li><a href="#"><i class="fa fa-check-circle" aria-hidden="true"></i>Maintain Distance</a></li>
-                            <li><a href="#"><i class="fa fa-check-circle" aria-hidden="true"></i>Cover Your Face</a></li>
+                            <li><a ><i class="fa fa-check-circle" aria-hidden="true"></i>Wear Mask</a></li>
+                            <li><a><i class="fa fa-check-circle" aria-hidden="true"></i>Stay Home</a></li>
+                            <li><a ><i class="fa fa-check-circle" aria-hidden="true"></i>Wash Hands Often</a></li>
+                            <li><a ><i class="fa fa-check-circle" aria-hidden="true"></i>Maintain Distance</a></li>
+                            <li><a ><i class="fa fa-check-circle" aria-hidden="true"></i>Cover Your Face</a></li>
                             </ul>
                         </div>
                         <div className="prevent-img"> 
@@ -55,10 +55,11 @@ class Prevention extends Component{
                       
                         <p>Here is a <span class="react1"> <em>  List of candidate vaccines</em>  </span>developed against SARS-CoV.</p>
                  
-                       <a href="https://www.who.int/blueprint/priority-diseases/key-action/list-of-candidate-vaccines-developed-against-sars.pdf" > 
+                        <div className = "Morefaq">
+                       <a href="https://www.who.int/blueprint/priority-diseases/key-action/list-of-candidate-vaccines-developed-against-sars.pdf"  target="_blank" > 
                        <button class="vaccine-list"> Visit www.Who.int &#9776; </button></a>
                              
-                    
+                     </div>
                      
                        </div>
                      

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Hero from '../assets/img/stay-safe.png';
+import faqpdf from '../assets/FAQ.pdf';
 import SideMenu from './SideMenu';
 import {NavLink } from 'react-router-dom';
 
@@ -64,19 +65,20 @@ class Facts extends Component{
                             and when then are 	&lt;5μm in diameter, they are referred to as<em> droplet nuclei.</em>
                           </p>
                     </div>
+
+                     <div className = "Morefaq">
+                  
+                            <a href={faqpdf} class="more-faqs"  target="_blank"><span>More FAQs </span></a>
+                             {/* <a href="https://www.mohfw.gov.in/pdf/StatewiseCovidHospitalslink19062020.pdf" > 
+                                      <button class="vaccine-list"> State Helpline no.  &#9742; </button></a> */}
+                           
+                      </div>
                     
          </div>
          <div className="Hero1">
              <div className = "Hero-Image">
                     <img src={Hero} width = "90%"  alt="covid"/>
              </div>
-            
-        
-             <div className = "Morefaq">
-                  
-                    <a href="https://www.w3schools.com/css/css3_buttons.asp" class="more-faqs" ><span>More FAQs </span></a>
-             </div>
-           
                  
          </div>
   </div>

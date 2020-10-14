@@ -1,5 +1,4 @@
 import React  ,{ Component } from 'react';
-import covidred from '../assets/img/covid.svg';
 import {NavLink } from 'react-router-dom';
 
 class Header extends Component{
@@ -8,8 +7,6 @@ class Header extends Component{
         super(props);     
     }
 
-  
-    
     render(){
         return(
                   //<> or <React.Fragment>
@@ -17,13 +14,6 @@ class Header extends Component{
         <>
          
         <div className="topnav" id="myTopnav">
-                    {/* <a href="#home" className="active">Colist.</a>
-                    <a href="#contact"><i className="fa fa-question"></i>  FAQs</a>
-                    <a href="#about"><i className="fa fa-medkit"></i>  Prevention</a>
-                    <a href="#about"><i className="fa fa-asterisk"></i>  About</a>
-                    <a href="javascript:void(0);" className="icon" onClick= "myFunction()">
-                        <i className="fa fa-bars"></i>
-                    </a> */}
                  
                    <NavLink className="active" to= "/home">
                     <span ></span> Covidtrak.
