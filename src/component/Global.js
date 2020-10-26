@@ -14,12 +14,9 @@ function GetRequestHooks(props) {
     }, []);
 
   
-    const cityName = window.cityName;
-    const userStatecode = window.userStatecode;
     
     return (
-        console.log(cityName),
-        console.log(userStatecode),
+      
 
 
     //   console.log(cityName),

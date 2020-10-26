@@ -1,5 +1,6 @@
 import React from 'react';
 import pandemic from '../assets/img/pandemic.png';
+import {STATE_NAMES} from './Constants';
 
 class CityDetails extends React.Component {
     constructor(props) {
@@ -8,8 +9,6 @@ class CityDetails extends React.Component {
         this.state = {
            
             CityDetailssss: [],
-            
-
         };      
     }
 
@@ -35,12 +34,33 @@ class CityDetails extends React.Component {
         var cityName =  window.cityName;
         var userStatecode = window.userStatecode;
         console.log(cityName);
-        if(cityName == 'New Delhi' && userStatecode=='D'){
+        console.log(userStatecode);
+         function getKeyByValue(object, value) {
+            return userStatecode = Object.keys(object).find(key => object[key] === value);
+          }       
+        console.log(cityName);
+        console.log(getKeyByValue(STATE_NAMES,userStatecode));
+
+        if(cityName == 'New Delhi' || cityName=='Delhi' || userStatecode=='DL' || userStatecode=='Delhi'){
               cityName = 'Delhi';
               userStatecode = "DL"
-
         }
-      
+        if(cityName == 'Kanpur' || cityName=='Kanpur Dehat' || cityName=='Kanpur Nagar'){
+            cityName = 'Kanpur Nagar';   
+            userStatecode = "UP"
+        }
+        if(cityName == 'Bengaluru' || cityName=='Bangalore Urban' || cityName=='Bangalore Rural'){
+            cityName = 'Bengaluru Urban';   
+            userStatecode = "KA"
+        }
+        if(userStatecode=='CH'){
+            cityName = 'Chandigarh';   
+        }
+        if(typeof cityName === "undefined")
+        {
+            cityName = 'Searching..';
+        }
+        
            return( 
             <div className="city-details"> 
             <img src={pandemic} width = "15%" alt="Icons"/> 
@@ -75,9 +95,9 @@ class CityDetails extends React.Component {
                                             var cityConfirmed =  CityDetailssss[stateCode]['districts'][cityName]['total']['confirmed'];
                                             var cityRecovered =  CityDetailssss[stateCode]['districts'][cityName]['total']['recovered'];
                                             var cityDeath =  CityDetailssss[stateCode]['districts'][cityName]['total']['deceased'];
-                                            var cityActive =      cityConfirmed - (cityRecovered +cityDeath);      
-                                        
-                                            
+                                            var cityActive =      cityConfirmed - (cityRecovered +cityDeath);    
+
+                                           
                                             return(
                                                 <div className="cityContentBox" >   
                                             

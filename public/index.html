@@ -104,10 +104,10 @@ function getCity(coordinates) {
       var city = response.address.city; 
       var state = response.address.state; 
       document.getElementById("demo").innerHTML = city;
-      var short = state;
-      var initials = short.match(/\b\w/g) || [];
-      initials = ((initials.shift() || '') + (initials.pop() || '')).toUpperCase();
-      window.userStatecode = initials;
+      // var short = state;
+      // var initials = short.match(/\b\w/g) || [];
+      // initials = ((initials.shift() || '') + (initials.pop() || '')).toUpperCase();
+      window.userStatecode = state;
       window.cityName = city;
    
 			return; 

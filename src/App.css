@@ -1238,7 +1238,7 @@ text-align: left;
   
   }
   #customers {
-    font-size: 12px;
+    font-size: 14px;
  }
 
 #customers td, #customers th {
@@ -1429,7 +1429,7 @@ padding-top: 35px;
   display: block;
 }
 #customers{
-  font-size: 8px;
+  font-size: 10px;
 }
 #customers th {
    padding-top: 5px;
@@ -2023,13 +2023,16 @@ font-size: 12px;
 
 }
 .cityContentBox span {
-
 font-size: 14px;
-
+}
+#customers {
+  font-size: 10px;
 }
 
 }
 @media (max-width: 450px) {
+
+  
   .prevent-img img {
     padding: 10px;
 }
@@ -2176,7 +2179,6 @@ font-size: 14px;
     padding: 15px 5px 15px 5px;
    
   }
-
   .sidenav {
     position: fixed;
     top: 190px;
@@ -2230,19 +2232,21 @@ font-size: 14px;
   font-size: 13px;
 }
 .cityContent button {
- 
   border-radius: 25px;
   padding: 6px;
   width: 130px;
   font-size: 12px;
- 
 }
 .cityContentBox span {
- 
   font-size: 12px;
- 
 }
 }
+@media  (min-width: 350px) and (max-width: 380px){
+  #customers {
+    font-size: 9px;
+  }
+}
+
 @media (max-width: 350px){
 
 .borda {
@@ -2257,6 +2261,15 @@ font-size: 14px;
   text-align: center;
   font-size: 25px;
 }
+#customers {
+  font-size: 8px;
 }
+}
+@media (max-width: 320px){
 
+  #customers {
+    font-size: 7px;
+  }
+  }
+  
 
